@@ -235,7 +235,7 @@ p{
 	width:100%;
 	display:block;
 }
-h1,h2,h3, h4, .btn-border, .btn-green, .btn-white, .btn-yellow, .btn-dark, .readmore, .btn-border-white,
+h1,h2,h3, h4, .btn-border, .btn-blue, .btn-white, .btn-yellow, .btn-dark, .readmore, .btn-border-white,
  nav.navbar.bootsnav ul.nav > li > a, .attr-nav .getquote, .testinomial_pic span.name, .pushmenu  ul > li > a,
  #clockdiv .count-inner > span{
 	font-family: "raleway";
@@ -259,7 +259,7 @@ blockquote {
 
 
 /* ---------------- Button ---------------- */
-.btn-border, .btn-green, .btn-white, .btn-yellow, .btn-dark, .btn-border-white{
+.btn-border, .btn-blue, .btn-white, .btn-yellow, .btn-dark, .btn-border-white{
 	display:inline-block;
 	padding:9px 28px;
 	font-size:13px;
@@ -271,17 +271,17 @@ blockquote {
 	color:#222222;
 	border:1px solid #222222;
 }
-.btn-green{
-	background:#73ae20;
-	border:1px solid #73ae20;
+.btn-blue{
+	background:#019bb6;
+	border:1px solid #019bb6;
 }
 .btn-border-white{
 	border:1px solid #fff
 }
-.btn-green, .btn-border-white{
+.btn-blue, .btn-border-white{
 	color:#fff;
 }
-.btn-green:before, .btn-border:before, .btn-dark:before, .btn-border-white:before{
+.btn-blue:before, .btn-border:before, .btn-dark:before, .btn-border-white:before{
   background:#019bb6;
   border:1px solid #019bb6;
 }
@@ -317,7 +317,7 @@ blockquote {
 	border:1px solid 2e363a;
 }
 
-.btn-white:before, .btn-green:before, .btn-border:before, .btn-yellow:before, .btn-dark:before, .btn-border-white:before{
+.btn-white:before, .btn-blue:before, .btn-border:before, .btn-yellow:before, .btn-dark:before, .btn-border-white:before{
   content: "";
   position: absolute;
   top: 0;
@@ -331,7 +331,7 @@ blockquote {
   z-index: -1;
   opacity:0;
 }
-.btn-white:hover:before, .btn-green:hover:before, .btn-border:hover:before, 
+.btn-white:hover:before, .btn-blue:hover:before, .btn-border:hover:before, 
 .btn-yellow:hover:before, .btn-dark:hover:before, .btn-border-white:hover:before{
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -340,13 +340,13 @@ blockquote {
   transform: scaleX(1);
   opacity:1;
 }
-.btn-white:hover, .btn-green:hover, .btn-border:hover, .btn-yellow:hover, .btn-border-white:hover{
+.btn-white:hover, .btn-blue:hover, .btn-border:hover, .btn-yellow:hover, .btn-border-white:hover{
   color:#fff;
 }
 .btn-white:hover {
   border-color:#73ae20;
 }
-.btn-green:hover, .btn-border:hover, .btn-dark:hover, .btn-border-white:hover{
+.btn-blue:hover, .btn-border:hover, .btn-dark:hover, .btn-border-white:hover{
   border-color:#019bb6;
 }
 .btn-yellow:hover{
@@ -615,7 +615,8 @@ ul.social_icon li a:after, ul.links li a, .footer_small .breadcrumb li a{
 	background:rgba(255,255,255, .8);
 }
 .service_wrap .overlay, #layout-project .overlay{
-	background:rgba(115,174,32, .8);
+	background:#019bb6;
+	opacity: 0.6;
 }
 .overlay, .overlay .overlay_inner, .overlay .overlay_center{
 	position:absolute;
@@ -679,7 +680,7 @@ a.back-to{
 a.back-to:hover, a.back-to:focus{ background:#73ae20;}
 .layout_second a.back-to:hover, .layout_second a.back-to:focus{ background:#FF9F1C;}
 
-.btn-white:before, .btn-green:before, .btn-border:before, .btn-yellow:before, .btn-dark:before, .btn-border-white:before,
+.btn-white:before, .btn-blue:before, .btn-border:before, .btn-yellow:before, .btn-dark:before, .btn-border-white:before,
  header, .navbar-brand > img, .topbar, .attr-nav, .sticked, .sticked.navbar-brand, 
  #layout_bottom, nav.navbar.bootsnav ul.nav > li > a.border:before,
 .info .icon_box, .team_wrap .image .list_content,
@@ -823,7 +824,7 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 	right:0;
 	position:absolute;
 	bottom:0;
-	background:#73ae20;
+	background:#019bb6;
 	width:0;
 }
 .layout_first nav.navbar.bootsnav ul.nav > li > a.border:before{
@@ -1862,7 +1863,7 @@ button{ border:none;}
 
 /* ----------------- Page Header ----------------- */
 .page_header{
-	background:url(/images/page-header.jpg) no-repeat;
+	background:url(../images/page-header.jpg) no-repeat;
 	padding:110px 0;
 }
 .page_header, .page_header p{ color:#fff;}
@@ -1897,7 +1898,7 @@ button{ border:none;}
   vertical-align: top;
 }
 .page_linker .breadcrumb li a:hover, .page_linker .breadcrumb li a:focus, .page_linker .breadcrumb li.active{
-	color:#73ae20;
+	color:#019bb6;
 }
 /* ----------------- Page Header ends ----------------- */
 
@@ -2373,7 +2374,7 @@ ul.check li > i{
 	top:38px;
 }
 .bg_contact.bg_one{
-	background:url(/images/bg-contact.jpg) no-repeat;
+	background:url(../images/red-bg-contact.png) no-repeat;
 	background-position:center right;
 }
 .bg_contact.bg_two{
