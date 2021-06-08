@@ -880,7 +880,7 @@ nav.navbar.bootsnav .navbar-toggle {
 	color:#ff9f1c;
 }
 .navbar.bootsnav .navbar-toggle{
-	color:#73ae20;
+	color:#019bb6;
 }
 header.layout_fifth .brand-center.no-background{
 	padding-top:40px;
@@ -1268,11 +1268,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 #people_slider .item, #news_slider .item , #logo_slider .item, #team_slider .item{
 	margin:0 15px;
 }
-#logo_slider .item{
-	border:1px solid #c7c7c7;
-	display:block;
-	text-align:center;
-}
+
 #logo_slider .item > img{
 	display:inline-block;
 	width:auto;
@@ -1554,7 +1550,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 
 /* ----------------- Parallax Backgrounds ----------------- */
 .parallax_one{
-	background:url(../images/parallax-one.jpg) no-repeat;
+	background:url(../images/devre.jpg) no-repeat;
 }
 .parallax_one, .parallax_two, .parallax_news, .parallax_bg_slider, .page_header{
 	background-size:cover;
